@@ -1,0 +1,83 @@
+.appWeb{
+    width:40%;
+    margin:1%;
+    overflow: hidden;
+    background-color: rgb(245, 238, 229);
+    border: solid rgb(128, 123, 123) 1px;
+    column-count: 1;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 0.75rem;
+}
+
+
+
+.appWeb:hover{
+    transform: scale(1.1,1.1);
+}
+
+
+
+.tituloApp {
+	font:  4vh Helvetica, Sans-Serif;
+    color: rgba(0,0,255,0.5);
+    z-index:-1;
+}
+
+.tituloApp:after {
+	content: "appWebs";
+    position: absolute;  
+    top: 5px;
+    color: rgba(255,0,0,0.5);
+    z-index:-1;
+    left: 0;
+    right: 0;
+    margin-left: 3px;
+}
+
+.boton{
+    width: 30%;
+    color:white;
+    background-color: red;
+    border-radius: 15px;
+}
+
+
+
+
+@media (max-width: 750px) {
+    .appWeb{
+        width:40%;
+    }
+
+    .boton{
+        width: 45%;
+
+    }
+}
+
+@media (max-width: 500px) {
+    .appWeb{
+        width:58%;
+    }
+
+    .boton{
+        width: 45%;
+
+    }
+  }
+
+@media (max-width: 300px) {
+
+    .appWeb{
+        width:100%;
+    }
+
+    .boton{
+        width: 45%;
+
+    }
+    
+    
+
+}

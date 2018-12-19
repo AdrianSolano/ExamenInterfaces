@@ -58,14 +58,14 @@ main > section > h2{
 }
 .borde{
   width: 200px;
-	-webkit-border-radius: 8px;
-	-moz-border-radius: 8px;
+	border-radius: 8px;
+	border-radius: 8px;
 	border: 1px solid black;
 }
 .borde:hover{
   width: 200px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 8px;
+	border-radius: 5px;
+	border-radius: 8px;
 	border: 1px solid red;
 }
 
@@ -188,11 +188,8 @@ aside{
 section{
     grid-column: 1/13;
 }
-header{
-    display: none;
-}
-header img{
-    display: none;
+.center{
+  display: none;
 }
 }
 
